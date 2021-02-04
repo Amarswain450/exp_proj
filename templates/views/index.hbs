@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>header_link}}
+</head>
+<body>
+
+    <!-- Navbar section start -->
+    {{>navbar}}
+    <!-- Home section start -->
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+    
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+    
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/empp1.jpg" alt="Los Angeles">
+            </div>
+            <div class="carousel-item">
+                <img src="images/empp2.jpg" alt="Chicago">
+            </div>
+            <div class="carousel-item">
+                <img src="images/empp3.jpg" alt="New York">
+            </div>
+        </div>
+    
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    
+    </div>
+
+    <!-- Home section start -->
+    <!-- Navbar section end -->
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+            <div class="container-fluid mt-5">
+                <div class="row">
+                    <div class="col-md-10 col-12 mx-auto">
+                        <div class="about_heading">
+                            <h2>About US</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-12 hero_image">
+                                <figure>
+                                    <img src="images/comp1.jpg" alt="comp1 image">
+                                </figure>
+                            </div>
+                            <div class="col-md-6 col-12 hero_text">
+                                <h1>WE WILL HELP YOU</h1>
+                                <h1>GROW YOUR BUSINESS</h1>
+                                <p>We Are The Team Of <span class="bold_style"> Professional Developer </span></p>
+                                <button class="btn_style btn-primary">Read more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Service Section Start -->
+        <section class="service" id="service">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-10 col-12 mx-auto">
+                        <div class="about_heading">
+                            <h2>Services</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="box">
+                                    <div class="icon">
+                                        <i class="fas fa-cog"></i>
+                                    </div>
+                                    <h2>Settings</h2>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto voluptas modi est! Voluptate, voluptatum vero?</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="box">
+                                    <div class="icon">
+                                        <i class="fas fa-user-shield"></i>
+                                    </div>
+                                    <h2>Speedup</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In veritatis necessitatibus alias, modi voluptatibus
+                                        suscipit!</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="box">
+                                    <div class="icon">
+                                        <i class="fas fa-database"></i>
+                                    </div>
+                                    <h2>Privacy</h2>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque architecto delectus repellendus enim sapiente ipsum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>                
+    <!-- Service Section End -->
+
+
+    <section>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59576.577825330125!2d86.46759787516663!3d21.05123941646785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1bf587cd8ce1f1%3A0x820d86656eae5320!2sBhadrak%2C%20Odisha!5e0!3m2!1sen!2sin!4v1612000956897!5m2!1sen!2sin"
+            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0">
+        </iframe>
+    </section>
+
+    <!-- Contact Section Start -->
+    <section class="contact" id="contact">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-10 col-12 mx-auto">
+                    <form action="/contact" method="POST">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Name" name="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Email" name="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Phone</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Phone Number" name="phone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Write Something" rows="3" name="message"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <button class="btn btn-primary" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section Start -->
+    <footer>
+        <h5>Developed By <i class="fas fa-heart"></i> <span>Amar</span></h5>
+    </footer>
+    <!-- Footer Section End -->
+    
+
+
+{{>footer_link}}
+</body>
+</html>

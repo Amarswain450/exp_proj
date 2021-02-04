@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+html{
+    font-family: 'Roboto',sans-serif;
+    scroll-behavior: smooth;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 80vh;
+}
+
+.hero_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero_image > figure > img{
+    width: 450px;
+}
+
+.about{
+    padding: 80px 0;
+}
+
+.about_heading h2{
+    text-align: center;
+    margin: 0 0 50px 0;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.hero_text h1{
+    font-weight: bold;
+}
+
+.hero_text p>.bold_style{
+    color: #1252D3;
+}
+
+.btn_style{
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn_style:hover{
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.service{
+    padding: 80px 0;
+}
+
+.box .icon{
+    text-align: center;
+}
+
+.box .icon i{
+    font-size: 40px;
+}
+
+.box h2{
+    text-align: center;
+}
+
+.contact{
+    padding: 80px 0;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: #000;
+}
+
+footer h5{
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0 0;
+}
+
+footer h5 i{
+    color: red;
+}
+
+footer h5 span{
+    font-weight: bold;
+    font-style: italic;
+    color: orangered;
+}
